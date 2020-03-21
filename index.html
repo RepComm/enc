@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Quick Encrypt</title>
+  <style>
+    body {
+      background-color: rgb(83, 83, 83);
+      margin: 0px;
+      padding: 0px;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+    #drop-box {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+      text-align: center;
+      background-color: #8f9fac;
+      border-radius: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="drop-box">
+    <p>Drag one or more files here</p>
+  </div>
+  <input id="key-input" />
+  <button id="rand-key">Generate a random key</button>
+  <a id="f-out" download="" style="display:none"></a>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
